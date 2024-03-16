@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 app.use(express.static("public"));
 
-const API_URL = "https://blog-website-server-s5v2.onrender.com";
+const API_URL = "https://blog-website-server-s5v2.onrender.com/blogs";
 
 
 app.use(bodyParser.urlencoded({extended:true}));
